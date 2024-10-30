@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>랜덤 이름 추출기</title>
+    </head>
+    <body>
+        <h1>랜덤 이름 추출기</h1>
+        <button onclick="getRandomNames()">이름 추출</button>
+        <h2>결과:</h2>
+        <p id="result"></p>
+
+        <!-- 사이트 링크 버튼 -->
+        <button onclick="goToWebsite()">사이트 이동</button>
+
+        <script src="script.js"></script>
+        <script>
+            function goToWebsite() {
+                // 로컬 경로로 연결합니다 (예: Downloads 폴더에 있는 경우)
+                window.location.href = "file:///Users/username/Downloads/index.html"; // 자신의 파일 경로로 수정
+            }
+        </script>
+    </body>
+</html>
