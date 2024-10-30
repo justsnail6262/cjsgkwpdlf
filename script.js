@@ -34,7 +34,7 @@ function getRandomNames() {
     }
 
     const [first, second] = randomIndices.map((index) => names[index]);
-    document.getElementById("result").innerText = `순서대로 추출된 이름: ${first}, ${second}`;
+    document.getElementById("result").innerText = `생성된 CP : ${first} x ${second}`;
 }
 
 function goToWebsite() {
